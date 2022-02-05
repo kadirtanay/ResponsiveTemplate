@@ -1,0 +1,51 @@
+:root{
+    
+    --colorA:#022029;
+    --colorB:#032E3B;
+    --colorC:#00BCF5;
+    --Black:#000000;
+    --White:#fff;
+}
+@media (max-width:980px) {
+    .slideBar{
+        height: 30vw;
+    }
+    .slideBar:nth-child(2)>h1{
+        position: absolute;
+        top:25px;
+        right:3%;
+        width:65%;
+        color: var(--colorA);
+        text-align: right;
+        font-size: 2vh;
+    }
+    .rotationContainer{
+        display: none;
+    }
+}
+.slideBar>h1{
+    position: absolute;
+    top:25%;
+    right:3%;
+    width:65%;
+    color: var(--colorA);
+    text-align: right;
+}
+/*Rotated style*/
+#rotate3D {
+    width: 5rem;
+    height: 5rem;
+    position: relative;
+    float: left;
+    background: linear-gradient(15deg, #032E3B, #000000);
+}
+.main {
+    display: flex;
+}
+.main::after {
+    content: '';
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(135deg, var(--colorB)40%, var(--Black) 10%, var(--colorC)50%);
+}
+/*Rotated style*/
