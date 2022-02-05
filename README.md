@@ -1,3 +1,4 @@
 Single page responsive web design.
 <br>
-![resp](https://user-images.githubusercontent.com/94050631/152640359-e6dc251b-4879-4c53-ab91-4028b3b8514a.gif)
+![responsivetemplate](https://user-images.githubusercontent.com/94050631/152640538-32c0cad3-cf16-42ef-9c21-5c468d59563d.gif)
+
